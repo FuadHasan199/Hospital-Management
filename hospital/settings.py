@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     'appoitment',
     'services',
     'contactus',
+    'rest_framework',
     
 ]
 
@@ -53,6 +54,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    # 'rest_framework.permissions.DjangoModelPermissionsOrAnonReadOnly',
 ]
 
 ROOT_URLCONF = 'hospital.urls'
